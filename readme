@@ -1,0 +1,47 @@
+appointment-booking-system
+│
+├── backend
+│   ├── models
+│   │   ├── User.js
+│   │   ├── Teacher.js
+│   │   └── Appointment.js
+│   │
+│   ├── routes
+│   │   ├── auth.js
+│   │   ├── teachers.js
+│   │   └── appointments.js
+│   │
+│   ├── controllers
+│   │   ├── authController.js
+│   │   ├── teacherController.js
+│   │   └── appointmentController.js
+│   │
+│   ├── middleware
+│   │   └── authMiddleware.js
+│   │
+│   ├── config
+│   │   └── db.js
+│   │
+│   ├── .env
+│   ├── server.js
+│   └── package.json
+│
+└── frontend
+    ├── public
+    │   ├── index.html
+    │   ├── login.html
+    │   ├── register.html
+    │   ├── dashboard.html
+    │   ├── teacher.html
+    │   └── appointment.html
+    │
+    ├── css
+    │   └── styles.css
+    │
+    ├── js
+    │   ├── main.js
+    │   ├── auth.js
+    │   ├── teacher.js
+    │   └── appointment.js
+    │
+    └── package.json
